@@ -8,4 +8,12 @@ public abstract class Question {
         this.question = question;
         this.correct_answer = correct_answer;
     }
+
+    public String getQuestion() {
+        return this.question;
+    }
+
+    public String getCorrect_answer() {
+        return this.correct_answer;
+    }
 }
